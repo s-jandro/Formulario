@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formulario   </title>
+    </head>
+<body>
+
+<h1>Formulario</h1>
+
+<form action=>
+  <label for="nombres">Nombres:</label><br>
+  <input type="text" id="nombres" name="nombres" value="Sergio"><br><br>
+  <label for="apellidos">Apellidos:</label><br>
+  <input type="text" id="apellidos" name="apellidos" value="Paucar Cruz"><br><br>
+  <label for="fecha_de_nacimiento">Fecha de nacimiento:</label><br>
+  <input type="date" id="fecha_de_nacimiento" name="fecha_de_nacimiento"> <br><br>
+  <label for="ocupacion">Ocupacion:</label><br>
+  <input type="text" id="ocupacion" name="ocupacion" value="Estudiante"><br><br>
+  <label for="contacto">Contacto:</label><br>
+  <input type="text" id="contacto" name="contacto" value="sergio.paucar@ucsp.edu.pe"><br><br>
+  <label for="nacionalidad">Nacionalidad:</label><br>
+    <select id="nacionalidad">
+        <option value="peru">Peru</option>
+        <option value="argentina">Argentina</option>
+        <option value="brasil">Brasil</option>
+        <option value="colombia">Colombia</option>
+    </select><br><br>
+    
+    <label for="ingles">Nivel de ingles:</label><br>
+    <input type="radio" id="basico" name="n_ingles" value="Basico">
+    <label for="basico">Basico</label>
+    <input type="radio" id="intermedio" name="n_ingles" value="Intermedio">
+    <label for="intermedio">Intermedio</label>
+    <input type="radio" id="avanzado" name="n_ingles" value="Avanzado">
+    <label for="avanzado">Avanzado</label>
+    <input type="radio" id="fluido" name="n_ingles" value="Fluido">
+    <label for="fluido">Fluido</label><br><br>
+    
+    <label for="lenguajes">Lenguajes de programacion:</label><br>
+    <input type="checkbox" id="lenguaje1" name="lenguaje1" value="HTML">
+    <label for="lenguaje1"> HTML</label><br>
+    <input type="checkbox" id="lenguaje2" name="lenguaje2" value="Javascript">
+    <label for="lenguaje2"> Javascript</label><br>
+    <input type="checkbox" id="lenguaje3" name="lenguaje3" value="Python">
+    <label for="lenguaje3"> Python</label><br>
+    <input type="checkbox" id="lenguaje4" name="lenguaje4" value="Cplus">
+    <label for="lenguaje4"> C++</label><br>
+    <input type="checkbox" id="lenguaje5" name="lenguaje5" value="Php">
+    <label for="lenguaje5"> PHP</label><br> <br>
+
+    <label for="aptitud">Aptitudes: </label><br>
+    <input list="aptitudes" name="aptitud" id="aptitud">
+    <datalist id="aptitudes">
+    <option value="Habilidades de comunicación">
+    <option value="Habilidades interpersonales:">
+    <option value="Habilidades técnicas">
+    <option value="Pensamiento crítico y resolución de problemas">
+    <option value="Adaptabilidad">
+    </datalist><br><br>
+
+  <label for="habilidad">Habilidades:</label><br>
+  <input type="checkbox" id="habilidad1" name="habilidad1" >
+  <label for="habilidad1"> Habilidades digitales</label><br>
+  <input type="checkbox" id="habilidad2" name="habilidad2" >
+  <label for="habilidad2"> Habilidades de ventas y negociación</label><br>
+  <input type="checkbox" id="habilidad3" name="habilidad3" >
+  <label for="habilidad3"> Habilidades de atención al cliente</label><br>
+  <input type="checkbox" id="habilidad4" name="habilidad4" >
+  <label for="habilidad4"> Habilidades organizativas</label><br>
+  <input type="checkbox" id="habilidad5" name="habilidad5" >
+  <label for="habilidad5"> Habilidades de liderazgo</label><br> <br>
+  
+  <label for="habilidad">Perfil:</label><br>
+  <textarea name="message" rows="20" cols="40"></textarea>
+  <br><br>
+
+  <input type="button" value="Submit">
+  
+</form> 
+
+</body>
+</html>
